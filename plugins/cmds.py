@@ -32,11 +32,11 @@ async def start(bot, update):
           text=Scripted.START_TEXT,
           parse_mode="html",
           disable_web_page_preview=True,
-          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='⭕ Cʜᴀɴɴᴇʟ ⭕', url=f'https://t.me/{Config.UPDATE_CHANNEL}'),
-                                                 InlineKeyboardButton(text='⭕ Sᴜᴘᴘᴏʀᴛ ⭕', url=f'https://t.me/{Config.UPDATE_GROUP}') ],
-                                               [ InlineKeyboardButton(text='👮 DᴇvᴇlopᴇR', url='https://t.me/TheTeleRoid'),
-                                                 InlineKeyboardButton(text='🚸 Pᴏweʀᴇd By', url='https://t.me/MoviesFlixers_DL') ],
-                                               [ InlineKeyboardButton(text='🔐 Cʟᴏꜱᴇ 🔐', callback_data='DM') ] ] ) )
+          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='📣 Channel', url=f'https://t.me/{Config.UPDATE_CHANNEL}'),
+                                                 InlineKeyboardButton(text='❓ Support', url=f'https://t.me/{Config.UPDATE_GROUP}') ],
+                                               [ InlineKeyboardButton(text='👨‍💻 Developer', url='https://t.me/VinuthPMBot'),
+                                                 InlineKeyboardButton(text='👀 Restart', url='https://t.me/RenameV2_Robot?start') ],
+                                               [ InlineKeyboardButton(text='❌ Close', callback_data='DM') ] ] ) )
 
 
 
@@ -47,7 +47,7 @@ async def helpme(bot, update):
           text=Scripted.HELP_TEXT,
           parse_mode="html",
           disable_web_page_preview=True,
-          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='🔐 ᴄʟᴏꜱᴇ', callback_data='DM') ] ] ) )
+          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='❌ Close', callback_data='DM') ] ] ) )
 
 
 
@@ -58,7 +58,7 @@ async def abot(bot, update):
           text=Scripted.ABOUT_TEXT,
           parse_mode="html",
           disable_web_page_preview=True,
-          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='ᴄʟᴏꜱᴇ 🔐', callback_data='DM') ] ] ) )
+          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='❌ Close', callback_data='DM') ] ] ) )
 
 
 
@@ -69,7 +69,7 @@ async def upgra(bot, update):
           text=Scripted.UPGRADE_TEXT,
           parse_mode="html",
           disable_web_page_preview=True,
-          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='🔐 ᴄʟᴏꜱᴇ', callback_data='DM') ] ] ) )
+          reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton(text='❌ Close', callback_data='DM') ] ] ) )
 
 
 
